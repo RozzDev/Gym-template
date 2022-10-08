@@ -1,0 +1,375 @@
+@media screen and (max-width: 1024px){
+    .is{
+        display: none;
+    }
+    .sect-one h1{
+        font-size: 5rem;
+    }
+    .sect-one{
+        margin-left: 30px;
+    }
+    .two img{
+        margin-left: 70px;
+        width: 300px;
+        height: 400px;
+    }
+    .sect-one i {
+        font-size: 4rem;
+    }
+    .iframes p{
+        font-size: 0.78rem;
+    }
+    .number-two h1, .number-three h1{
+        font-size: 4rem;
+    }
+    .myslide {
+        left: 24.5%;
+    }
+    .number-four{
+        margin-left: 450px;
+    }
+    .four form {
+        margin-left: 200px;
+    }
+    .form input {
+        height: 40px;
+        width: 600px;
+        border: 1px solid #000;
+    }
+    .form textarea {
+        width: 600px;
+        border: 1px solid #000;
+    }
+    .form .button {
+        margin-left: 200px;
+    }
+    .details {
+        margin-left: 120px;
+    }
+    hr {
+        width: 800px;  
+        margin-left: 100px;
+    }
+    .last {
+        margin-left: 260px;
+    }
+    .details h6{
+        font-size: 1.5rem;
+    }
+    .details p {
+        font-size: 0.85rem;
+    }
+    .bt-email, .bt-phone, .bt-sponsor, .bt-open{
+        margin-right: 100px;
+    }
+    .bt-sponsor {
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:768px){
+    header .list {
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 70px;
+        text-align: center;
+        padding-right: 0px;
+        padding-top: 0px;
+        margin-left: -25px;
+        transition: 1.5s;
+    }
+    .list li {
+        padding-top: 45px;
+        padding-bottom: 45px;
+        margin-left: -25px;
+    }
+    .list li a{
+        font-size: 2rem;
+    }
+    .list li:hover {
+        background: rgba(83, 83, 83, 0.5);
+        color: coral;
+        width: 100%;
+    }
+    .sect-one h1{
+        font-size: 3rem;
+    }
+    .is{
+        display: block;
+        position: relative;
+        right: 70px;
+    }
+    .is i {
+        color: white;
+        position: absolute;
+        font-size: 3rem;
+    }
+    .fa-xmark{
+        display: none;
+    }
+    .two img{
+        margin-left: 20px;
+        width: 240px;
+        height: 350px;
+    }
+    .sect-one p{
+        font-size: 0.8rem;
+    }
+    .sect-one i {
+        font-size: 3rem;
+    }
+    .iframes h2{
+        font-size: 1rem;
+    }
+    .iframes p {
+        font-size: 0.7rem
+    }
+    .two img{
+        margin-left: 30px;
+        width: 250px;
+        height: 350px;
+    }
+    .sect-one li a{
+        padding: 5px 10px;
+        font-size: 1rem;
+    }
+    .number-three h1 {
+        font-size: 3rem;
+    }
+    .myslide {
+        left: 18%;
+    }
+    .number-four{
+        margin-left: 350px;
+    }
+    .four form{
+        margin-left: 90px;
+    }
+    .details h6{
+        font-size: 1rem;
+    }
+    .details p {
+        font-size: 0.7rem;
+    }
+    .bt-email, .bt-phone, .bt-sponsor, .bt-open{
+        margin-right: 50px;
+    }
+    hr {
+        width: 600px;  
+        margin-left: 70px;
+    }
+    .last {
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .logo{
+        font-size: 2.5rem;
+        margin-top: -10px;
+    }
+    .other-part p{
+        font-size: 1.5rem;
+    }
+    .other-part h1{
+        font-size: 3rem;
+    }
+    .list li {
+        padding-top: 42px;
+        padding-bottom: 42px;
+        margin-left: 0px;
+    }
+    .list li a{
+        font-size: 1.5rem;
+    }
+    .two {
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    .two img{
+        margin-left: 60px;
+        width: 300px;
+        height: 300px;
+    }
+    .sect-one {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .sect-one p{
+        font-size: 0.6rem;
+    }
+    .sect-one i {
+        font-size: 3rem;
+    }
+    .iframes h2{
+        font-size: 0.9rem;
+    }
+    .iframes p {
+        font-size: 0.6rem
+    }
+    .number-two h1,.number-three h1{
+        font-size: 2rem;
+    }
+    .number-two p, .number-three p{
+        font-size: 1rem;
+    }
+    .input input {
+        height: 26px;
+        width: 250px;
+        font-size: 0.9rem;
+        padding-left: 10px;
+    }
+    .input .btn{
+        height: 20px;
+        border: #fff;
+        font-size: 0.9rem;
+        margin-left: -5px;
+        padding: 5px 5px 20px 5px;
+    }
+    .myslide, .myslide img{
+        width: 200px;
+        height: 200px;
+        left: 110px;
+    }
+    .arrows .fa-greater-than, .arrows .fa-less-than {
+        top: -180px;
+    }
+    .paras {
+        position: absolute;
+        top: 70px;
+        left: 30px;
+    }
+    .myslide h4 {
+        font-size: 2rem;
+    }
+    .paras p {
+        font-size: 1rem;
+        color: coral;
+        opacity: 1;
+    }
+    .number-four {
+        margin-top: 250px;
+        margin-left: 160px;
+    }
+    .number-four .span {
+        width: 20px;
+        height: 20px;
+        background: #fff;
+        border-radius: 50%;
+        margin-right: 20px;
+        opacity: 70%;
+    }
+    .number-three {
+        background: coral;
+        color: white;
+        padding-top: 50px;
+        text-align: center;
+        height: 430px;
+    }
+    .four h1 {
+        font-size: 2.5rem;
+    }
+    .four p {
+        font-size: 1rem;
+    }
+    .four form{
+        margin-left: 65px;
+    }
+    .form input{
+        width: 300px;
+        font-size: 1rem;
+    }
+    .form textarea {
+        width: 300px;
+        height: 150px;
+        font-size: 1rem;
+    }
+    .form .button {
+        margin-left: 50px;
+        width: 200px;
+        height: 40px;
+    }
+    .details{
+        margin-left: 45px;
+    }
+    .details h6{
+        font-size: 0.9rem;
+    }
+    .details p {
+        font-size: 0.5rem;
+    }
+    .bt-email, .bt-phone, .bt-sponsor, .bt-open{
+        margin-right: 18px;
+    }
+    hr {
+        width: 350px;  
+        margin-left: 35px;
+    }
+    .last {
+        margin-left: 20px;
+        font-size: 0.85rem;
+    }
+    .back-to-top {
+        padding: 10px;
+        top: 550px;
+    }
+    .back-to-top i {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 375px) {
+    .logo {
+        font-size: 2rem;
+    }
+    .is i {
+        font-size: 2.5rem;
+    }
+    .is {
+        margin-top: -10px;
+        margin-left: 150px;
+    }
+    .logo span {
+        margin-top: -15px;
+    }
+    .two img {
+        margin-left: 30px;
+    }
+    .iframes{
+        margin-left: -40px;
+    }
+    .iframes h2{
+        font-size: 0.8rem;
+    }
+    .iframes p {
+        font-size: 0.5rem
+    }
+    .sect-one li {
+        margin-left: -50px;
+    }
+    .myslide{
+        left: 80px;
+    }
+    .number-four {
+        margin-left: 130px;
+        margin-top: 235px;
+    }
+    .four form{
+        margin-left: 30px;
+    }
+    hr {
+        width: 280px;
+    }
+    .details {
+        margin-left: 25px;
+    }
+    .last {
+        font-size: 0.7rem;
+    }
+    .line {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+}

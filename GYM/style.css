@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.one{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("img/carousel-2.jpg");
+    background-attachment: fixed;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px 20px 20px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin-top: 5px;
+}
+.logo {
+    display: flex;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: -2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo span {
+    background: black;
+    height: 70px;
+    width: 70px;
+    color: #fff;
+    border: 2px solid #fff;
+    justify-content: center;
+    display: grid;
+    border-radius: 50%;
+    padding-top: 20px;
+    font-size: 1.5rem;
+    animation: rotate 6s linear infinite;
+    margin-top: -10px;
+    margin-left: -2px;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.list {
+    display: flex;
+    padding-right: 50px;
+    padding-top: 20px;
+    background: #000;
+    border-radius: 5px;
+}
+.list li{
+    margin-left: 50px;
+}
+.list a{
+    color: #fff;
+    font-size: 1.1rem;
+    transition: 0.5s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.list a:hover {
+    color: coral;
+}
+.is{
+    display: none;
+}
+.drop-down {
+    justify-content: space-between;
+}
+.drop-down i{
+    font-size: 1rem;
+    width: 1.5px;
+    margin-left: 5px;
+    transition: 0.5s;
+}
+.drop-down i:hover{
+    background: coral;
+}
+.other-part {
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+.other-part p {
+    color:coral;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+
+}
+.other-part h1 {
+    font-size: 5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.other-part li {
+    padding-bottom: 120px;
+}
+.other-part li a {
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 2rem;
+    padding: 20px 40px;
+    transition: 0.5s;
+}
+.other-part li a:hover {
+    color: coral;
+    border: 2px solid coral;
+}
+.two {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.two img {
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    margin-left: 150px;
+    object-fit: cover;
+}
+.sect-one{
+    margin-left: 50px;
+}
+.sect-one h1{
+    font-size: 9rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+.sect-one i {
+    font-size: 5rem;
+    color: coral;
+    margin-bottom: 10px;
+}
+.one-set {
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.iframes{
+    display: flex;
+    margin-top: 30px;
+    margin-left: -20px;
+}
+.sect-one li {
+    margin-top: 40px;
+}
+.sect-one li a{
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    background: coral;
+    transition: 0.5s;
+    border: 2px solid coral;
+}
+.sect-one li a:hover{
+    color: coral;
+    background: #fff;
+}
+.three{
+    margin-top: 100px;
+}
+.number-two {
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("img/carousel-1.jpg");
+    text-align: center;
+}
+.number-two h1 {
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: coral;
+    padding-top: 100px;
+}
+.number-two p {
+    font-size: 1.5rem;
+    opacity: 60%;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.input {
+    padding-bottom: 100px;
+    margin-top: 50px;
+}
+.input input {
+    height: 50px;
+    width: 500px;
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+.input .btn{
+    height: 48px;
+    border: #fff;
+    font-size: 1.5rem;
+    margin-left: -5px;
+    background: #fff;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.input .btn:hover{
+    background: coral;
+    color: #fff;
+}
+.number-three {
+    background: coral;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    height: 900px;
+}
+.number-three h1 {
+    font-size: 5rem;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.number-three p {
+    opacity: 70%;
+    font-size: 1.5rem;
+}
+.slide-container {
+    display: flex;
+}
+.myslide {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0px 2px 10px rgb(49, 49, 51);
+    left: 31.5%;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    color: #000;
+    display: none;
+    transition: 2s;
+
+}
+.myslide img{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.paras {
+    position: absolute;
+    top: 200px;
+    left: 130px;
+}
+.myslide h4 {
+    font-size: 4rem;
+}
+.paras p {
+    font-size: 2rem;
+    color: coral;
+    opacity: 1;
+}
+.font h4, .fon h4 {
+    color: #fff;
+}
+.number-four {
+    margin-top: 600px;
+    display: flex;
+    text-align: center;
+    margin-left: 620px;
+}
+.number-four .span {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 20px;
+    opacity: 70%;
+}
+.arrows {
+    position: relative;
+}
+.arrows .fa-greater-than {
+    position: absolute;
+    color: white;
+    padding: 20px;
+    right: 0;
+    top: -350px;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+.arrows .fa-less-than {
+    position: absolute;
+    color: white;
+    padding: 20px;
+    left: 0;
+    top: -350px;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+.arrows .fa:hover {
+    background: #fff;
+    color: #000;
+}
+.four {
+    padding-top: 100px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.four h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+.four p {
+    opacity: 70%;
+    font-size: 1.5rem;
+}
+.four form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 325px;
+}
+.form input {
+    height: 40px;
+    width: 700px;
+    font-size: 1.5rem;
+    padding-left: 10px;
+    border: 1px solid #000;
+    margin-top: 20px;
+}
+textarea{
+    width: 700px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid #000;
+}
+.form .button {
+    background: coral;
+    border: 2px solid coral;
+    width: 200px;
+    height: 70px;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+}
+footer {
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url("img/carousel-2.jpg");
+    margin-top: 100px;
+}
+.g {
+    color: blue;
+}
+.oe {
+    color: red;
+}
+.o {
+    color: yellow;
+}
+.l{
+    color: green;
+}
+.details {
+    display: flex;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bt-email, .bt-phone, .bt-sponsor, .bt-open{
+    color: #fff;
+    margin-right: 150px;
+}
+.details h6{
+    color: coral;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.details p {
+    margin-top: 10px;
+}
+.coke {
+    border: 2px solid #fff;
+    color: red;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.google {
+    font-size: 1.5rem;
+}
+hr {
+    width: 900px;
+    text-align: center;
+    margin-left: 180px;
+    opacity: 80%;
+}
+.last {
+    display: flex;
+    color: #fff;
+    margin-left: 400px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.line {
+    width: 2px;
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: #fff;
+    margin-top: 3px;
+}
+.rozz{
+    color: coral;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}  
+
+@-webkit-keyframes fade{
+    from{
+        display: none;
+    }
+    to{
+        display: block;
+    }
+}
+@keyframes fade{
+    from{
+        display: none;
+    }
+    to{
+        display: block;
+    }
+}
+.back-to-top {
+    position: fixed;
+    top: 550px;
+    right: 20px;
+    border-radius: 20px;
+    background: #000;
+    padding: 20px;
+    display: none;
+    transition: 0.5s;
+}
+.back-to-top i {
+    font-size: 3rem;
+    color: coral;
+    transform: rotate(180deg);
+}
+
+
